@@ -1,0 +1,5 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args: ["build", "-f", "Dockerfile", "-t", "gcr.io/saveechi-2/saveechi", "."]
+images:
+  - gcr.io/saveechi-2/saveechi
